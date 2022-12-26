@@ -8,3 +8,8 @@
 5. ClassFinder.java => Working with directories <br/>
  _  |-> Trying working on this <br/>
    
+---
+
+Later Steps,
+So far working on Java code,
+Convert this Java code into an IntelliJ Plugin
