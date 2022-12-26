@@ -28,6 +28,4 @@
    
 ---
 ---
-Later Steps,
-So far working on Java code,
-Convert this Java code into an IntelliJ Plugin
+Later Steps, converting this Java code into an IntelliJ Plugin
