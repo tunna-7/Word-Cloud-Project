@@ -6,10 +6,28 @@
 4. ClassNamePrinter.java => Java code to print out all class names present in the entire folder
 
 5. ClassFinder.java => Working with directories <br/>
- _  |-> Trying working on this <br/>
+
+* Info storing in List<<>> format in String
+* String contains Class_Name as well as Class_Location separated by "->"
+
+---
+### Need to do:
+* Tally Class Count (Occurence of each class)
+* Can be in the form of JSOn format example
+
+
+            [
+              {
+                "className": "Name of the Class",
+                "classLocation": "Location of the file",
+                "frequency": 20
+              },
+              {}
+            ]
+            
    
 ---
-
+---
 Later Steps,
 So far working on Java code,
 Convert this Java code into an IntelliJ Plugin
