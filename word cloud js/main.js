@@ -1,17 +1,22 @@
-const myarray1 = {
-    className: "Ayush",
-    frequency: 20,
-    location: ["C:/users","C:/users/somewhere"]
+//Reading the text file
+const fs = require('fs')
+var text = fs.readFileSync("C:/Users/wayus/OneDrive/Desktop/Ayush Wunnava/Timepass/MyText.txt",'utf-8');
+let mainArr = text.split("\r\n");
+//removing last element
+mainArr.pop();
+// console.log(mainArr);
+let newArr = [];
+for(i of mainArr){
+    i = i.slice(0,-1);
+    let tempArr = i.split(":[");
+    newArr.push(tempArr)
 }
 
-const myarray2 = {
-    className: "Wunnava",
-    frequency: 10,
-    location: ["C:/users"]
+// console.log(newArr);
+
+//If I need to find the freq
+for(var i=0;i<newArr.length;i++){
+    console.log((newArr[i][1].match(/,/g) || []).length + 1)
 }
 
-const toparray = [];
-toparray.push(myarray1);
-toparray.push(myarray2);
 
-console.log(toparray);
